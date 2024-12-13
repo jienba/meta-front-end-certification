@@ -1,13 +1,13 @@
 {
   "name": "writing-test-with-jest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "addFive.js",
   "scripts": {
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jien BA",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
