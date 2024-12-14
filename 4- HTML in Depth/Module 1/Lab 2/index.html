@@ -20,34 +20,31 @@
     <header>
       <img src="logo.png" />
     </header>
-
     <main>
-      <form>
+      <form action="">
         <div>
-          <label for="booking_people">Number of people</label>
+          <label for="email_booking">Email Address</label>
+          <input type="email" name="email_booking" id="email_booking" />
+        </div>
+        <div>
+          <label for="booking_date">Date of Booking</label>
+          <input type="date" name="booking_date" id="booking_date" />
+        </div>
+        <div>
+          <label for="number_peopple">Number of people</label>
           <input
-            type="range"
-            name="booking_people"
-            id="booking_people"
+            type="number"
+            name="number_peopple"
+            id="number_peopple"
             min="1"
-            max="10"
-            oninput="this.nextElementSibling.value = this.value"
+            max="8"
           />
-          <output>4</output>
         </div>
         <div>
-          <label for="booking_location">Location</label>
-          <input list="locations" name="booking_location" id="booking_location">
-          <datalist id="locations">
-            <option value="Yoff"></option>
-            <option value="Ouest Foire"></option>
-          </datalist>
-        </div>
-        <div>
-          <input type="week" name="" id="">
-          <input type="month" name="" id="">
-          <input type="date" name="" id="">
-          <input type="year" name="" id="">
+          <label for="agree">
+            I agree to the cancellation policy</label>
+            <input type="checkbox" name="agree" id="agree" required>
+            <button type="submit">Book Now</button>
         </div>
       </form>
     </main>
