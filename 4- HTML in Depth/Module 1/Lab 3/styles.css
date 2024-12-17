@@ -56,3 +56,28 @@ form > div {
 input:invalid {
     color: red;
 }
+
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+.flex-container{
+    border: 2px dashed red;
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+
+
+.box3{
+    background-color: blanchedalmond;
+    align-self: center;
+    flex: 1 1 auto
+}
