@@ -1,0 +1,16 @@
+/* #blog  h1 {
+    color: green;
+} */
+
+/* #blog > h1 {
+    color: blue;
+} */
+
+/* #blog ~ h1 {
+    color: red;
+} */
+ 
+#blog + h1 {
+    color: red;
+}
+
