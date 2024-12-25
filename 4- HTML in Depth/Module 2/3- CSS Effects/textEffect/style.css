@@ -1,0 +1,69 @@
+body {
+    font-family: "Trebuchet MS";
+  }
+
+  h1 {
+    color: brown;
+  }
+
+  .text {
+    width: 300px;
+    border: 2px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .text-ellipsis {
+    text-overflow: ellipsis;
+  }
+
+  .text-clip {
+    text-overflow: clip;
+  }
+
+  .text-vert {
+    writing-mode: vertical-rl;
+  }
+
+  p.text-wrapping {
+    width: 50px;
+    border: 2px solid brown;
+    word-wrap: break-word;
+    overflow: hidden;
+
+  }
+
+  .text:hover {
+    overflow: visible;
+  }
+
+  .whole-black {
+    height: 25vh;
+    background-color: #000;
+    font-family: 'Papyrus';
+  }
+
+  .whole-black h1 {
+    color: #000;
+    text-shadow:  0 0 30px green, 0 0 5px  #fff;
+  }
+
+  .glow {
+    color: rgb(237, 237, 151);
+    text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 31px #fff,
+        0 0 100px rgb(255, 226, 4),
+        0 0 122px rgb(255, 226, 4),
+        0 0 140px rgb(255, 226, 4)
+  }
+
+  .container {
+    font-family: 'Papyrus';
+    background-color: #000;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+  }
+
+  
