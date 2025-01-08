@@ -1,0 +1,45 @@
+/* .overlay {
+    border-image: linear-gradient(hsl(240 100% 20% / 0.6), hsl(0 100% 20% / 0.6))
+      fill 1;
+  } */
+  
+  .hero {
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1697229299093-c920ab53bfb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2OTIzNzZ8&ixlib=rb-4.0.3&q=85");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: 2;
+    min-block-size: 80vh;
+    place-content: center;
+    text-align: center;
+    border-radius: 2rem;
+  }
+
+  .hero::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: linear-gradient(hsl(240 100% 20% / 0.8), hsl(0 100% 20% / 0.7));
+    z-index: -1;
+    border-radius: 2rem;
+
+  }
+  
+  @layer general-styling {
+    html {
+      color-scheme: dark light;
+      font-family: system-ui;
+      line-height: 1.6;
+    }
+  
+    body {
+      font-size: 2rem;
+      margin: 1rem;
+    }
+  
+    h1 {
+      line-height: 1;
+    }
+  }
+  
