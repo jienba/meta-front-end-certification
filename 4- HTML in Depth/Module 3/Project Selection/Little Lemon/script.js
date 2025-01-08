@@ -1,26 +1,3 @@
-/* document.addEventListener("DOMContentLoaded", function () {
-    const goTopBtn = document.getElementById("goTopBtn");
-    const navbar = document.querySelector(".navbar");
-  
-    window.addEventListener("scroll", () => {
-      // Show or hide the button based on scroll position
-      if (window.scrollY > navbar.offsetHeight) {
-        goTopBtn.classList.add("show");
-      } else {
-        goTopBtn.classList.remove("show");
-      }
-    });
-  
-    // Smooth scroll to top when the button is clicked
-    goTopBtn.addEventListener("click", () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    });
-  });
-   */
-
   document.addEventListener("DOMContentLoaded", function () {
     const goTopBtn = document.getElementById("goTopBtn");
     const promotion = document.querySelector(".promotion");

@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    height: 120px;
+    width: auto;
+}
+
+nav {
+    background-color: #acab7a;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+    z-index: 1;
+}
+
+nav ul li a:hover {
+    color: #637b47;
+}
+
+.banner {
+    position: relative;
+    text-align: left;
+    background-image: url('banner.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 200px; 
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.promo-title {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 20px; 
+    z-index: 1;
+}
+
+.promo-description {
+    font-size: 1.2rem; 
+    margin-top: auto;
+    margin-left: 20px; 
+    z-index: 1;
+    position: absolute;
+    bottom: 30px; 
+    left: 20px; 
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.banner h1 {
+    position: relative;
+    z-index: 1; 
+    font-size: 3rem; 
+    color: white; 
+    padding-top: 100px; 
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    background-color: #eef3e7;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+.card .card-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #637b47;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #637b47;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card .card-link:hover {
+    background-color: #637b47;
+    color: white;
+}
+
+.hours-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.hours-list li {
+    margin: 5px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #acab7a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer .footer-logo img {
+    height: 40px;
+}
+
+footer .footer-text {
+    font-size: 0.9rem;
+}

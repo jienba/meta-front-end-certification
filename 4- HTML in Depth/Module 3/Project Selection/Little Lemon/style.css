@@ -180,6 +180,12 @@ section {
 
 article {
     margin-bottom: 20px;
+    position: relative;
+}
+
+article button{
+    position: absolute;
+    bottom: .4rem;
 }
 
 article h2 {
@@ -199,6 +205,8 @@ article>img {
     max-width: 80%;
     margin: 1rem auto;
 }
+
+article
 
 .opening-hours {
     /* font-family: Arial, sans-serif; */
@@ -252,7 +260,7 @@ footer span {
 }
 
 body::-webkit-scrollbar {
-    width: 1em;
+    width: .7em;
   }
    
   body::-webkit-scrollbar-track {
