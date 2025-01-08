@@ -170,6 +170,10 @@ article {
     position: relative;
 }
 
+article p  {
+    margin-bottom: 4rem;
+}
+
 article button{
     position: absolute;
     bottom: .4rem;
