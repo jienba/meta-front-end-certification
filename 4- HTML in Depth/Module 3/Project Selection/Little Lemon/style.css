@@ -9,6 +9,8 @@ body {
     background-color: #edefee;
 }
 
+
+
 h1,
 h2 {
     color: #4C5D4E;
@@ -63,7 +65,6 @@ nav ul li a:hover {
 }
 
 
-
 .go-top-btn {
     position: fixed;
     bottom: 20px;
@@ -114,8 +115,6 @@ article {
     padding: 1rem;
     background-color: #465952;
     border-radius: 1rem;
-
-
 }
 
 /* Promotion Section */
@@ -159,7 +158,6 @@ article {
 /* Content Section */
 section {
     margin: 20px auto;
-    padding: 20px;
     max-width: 80%;
     border-radius: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -183,6 +181,7 @@ article h2 {
     font-size: 1.5rem;
     color: #F2CD13;
     text-align: center;
+    margin-top: 0;
 }
 
 article p,
@@ -200,7 +199,6 @@ article>img {
 article
 
 .opening-hours {
-    /* font-family: Arial, sans-serif; */
     margin: 0;
     padding: 0;
 }
@@ -230,24 +228,25 @@ dd {
 
 /* Footer */
 footer {
-    /* background-color: #4C5D4E; */
-    /* Deep Green */
-    max-width: 80%;
+    background-color: #4c5d4ea0;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #4C5D4E;
     text-align: center;
     padding: 20px;
 }
 
 footer img {
-    max-width: 80px;
+    max-width: 5%;
     margin-bottom: 10px;
 }
 
 footer span {
     font-weight: 500;
+    /* flex-grow: 1; */
 }
 
 body::-webkit-scrollbar {
@@ -265,12 +264,6 @@ body::-webkit-scrollbar {
   }
 
 
-/* section.overlay  {
-    color: #fff;
-    border-image-source: linear-gradient( hsl(45 89.4% 51.8% / .4), hsl(158 60% 31.2% / .5));
-    border-image-slice: fill 1;
-    border-radius: 2rem;
-} */
 
 button {
     background-color: #F7B801;

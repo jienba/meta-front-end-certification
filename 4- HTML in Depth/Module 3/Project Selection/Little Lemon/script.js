@@ -3,7 +3,6 @@
     const promotion = document.querySelector(".promotion");
   
     window.addEventListener("scroll", () => {
-      // Show or hide the button based on scroll position
       if (window.scrollY > promotion.offsetHeight) {
         goTopBtn.classList.add("show");
       } else {
@@ -11,9 +10,9 @@
       }
     });
   
-    // Smooth scroll to top when the button is clicked
+    
     goTopBtn.addEventListener("click", () => {
-      let scrollDuration = 500; // Duration in ms
+      let scrollDuration = 500;
       let start = window.scrollY;
       let startTime = null;
   
@@ -32,7 +31,7 @@
         if (timeElapsed < scrollDuration) {
           requestAnimationFrame(scrollToTop);
         } else {
-          window.scrollTo(0, 0); // Ensure it's at the top
+          window.scrollTo(0, 0); 
         }
       };
   
