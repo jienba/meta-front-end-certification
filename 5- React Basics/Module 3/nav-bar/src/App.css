@@ -1,0 +1,23 @@
+nav {
+  padding: 16px;
+  /*background-color: #2d2d2d;*/
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav * {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+nav *:hover{
+  color: orangered;
+}
+
+nav li  {
+  list-style: none;
+}

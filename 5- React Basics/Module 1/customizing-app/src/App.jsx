@@ -9,24 +9,26 @@ import Header from "./components/Header.jsx";
 import Bag from "./components/Bag.jsx";
 import Apples from "./components/Apples.jsx";
 import Pears from "./components/Pears.jsx";
+import ModeToggler from "./components/ModeToggler.jsx";
 
 function App() {
 
     return (
         <>
-            <Nav/>
+            {/*<Nav/>
             <Header name="Jienba" color="red"/>
             <Promo
                 heading="Black Friday"
                 promoSubHeading="Don't miss it!"/>
-            {/*<Intro1/>*/}
-            {/*<Intro2/>*/}
-            {/*<Intro3/>*/}
-            {/*<Footer/>*/}
-
+            <Intro1/>
+            <Intro2/>
+            <Intro3/>
+            <Footer/>
+*/}
 
            {/* <Bag children={<Apples color="red" number="5"/> } />
             <Bag children={<Pears friend="Coudy" />} />*/}
+
 
 
            {/* <Bag>
@@ -37,7 +39,7 @@ function App() {
             {/*<Bag>
                 <Pears friend="Aly" />
             </Bag>*/}
-
+            <ModeToggler/>
 
         </>
     )
