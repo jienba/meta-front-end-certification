@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/6- React Advanced/Module 1/lab-1-creating-basic-list-component/.idea/lab-1-creating-basic-list-component.iml" filepath="$PROJECT_DIR$/6- React Advanced/Module 1/lab-1-creating-basic-list-component/.idea/lab-1-creating-basic-list-component.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/meta-front-end-certification.iml" filepath="$PROJECT_DIR$/.idea/meta-front-end-certification.iml" />
     </modules>
   </component>
