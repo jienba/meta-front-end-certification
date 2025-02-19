@@ -23,7 +23,7 @@ function App() {
     return firstName
         && (email && validateEmail(email))
         && password.value.length >= 8
-        && (role === "individual" || role === "business");
+        && role !== "role";
   };
 
   const clearForm = () => {
