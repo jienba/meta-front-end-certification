@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header h2{
+  text-align: center;
+}
+
+p:has(span)  {
+  text-align: right;
+  /*float: right;*/
+  /*background-color: orangered;*/
+}
+
+
+.Username{
+  background-color: #646cff;
+  float: right;
+}
