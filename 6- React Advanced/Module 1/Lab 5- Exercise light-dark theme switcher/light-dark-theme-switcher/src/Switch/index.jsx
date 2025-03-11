@@ -3,6 +3,7 @@ import { useTheme } from "../ThemeContext.jsx";
 
 const Switch = () => {
   const { theme, toggleTheme } = useTheme();
+    console.log("rendering switch component🥱🥱🥱")
   return (
     <label className="switch">
       <input
