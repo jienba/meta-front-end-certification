@@ -12,14 +12,12 @@ export default function App() {
   );
 
   function spendGiftCard() {
-      setGiftCard( prevState => {
-          return {
-              ...prevState,
-              text: "Your coupon has been used",
-              valid: false,
-              instructions: "Please visit our restaurant to renew your gift card"
-          }
-      })
+      setGiftCard(prevState => ({
+          ...prevState,
+          text: "Your coupons has been used.",
+          valid: false,
+          instructions: "Please vistit our restaurant to renew your gift card."
+      }))
   }
 
   return (
