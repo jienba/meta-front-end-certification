@@ -41,23 +41,10 @@ const NinjaProfile = ({ member }) => {
                     </ul>
                 </div>
 
-                <div>
-                    <strong>👨‍👩‍👧‍👦 Family:</strong>
-                    <ul>
-                        <li>🧬 <strong>Creator:</strong> {family?.creator}</li>
-                        <li>🧪 <strong>Genetic Template:</strong> {family?.['genetic template']}</li>
-                    </ul>
-                </div>
 
                 <p><strong>🌪️ Nature Types:</strong> {natureType?.join(', ')}</p>
 
-                <div>
-                    <strong>🎤 Voice Actors:</strong>
-                    <ul>
-                        <li>🇯🇵 <strong>Japanese:</strong> {voiceActors?.japanese}</li>
-                        <li>🇺🇸 <strong>English:</strong> {voiceActors?.english}</li>
-                    </ul>
-                </div>
+
 
                 <div>
                     <strong>🌀 Jutsus:</strong>

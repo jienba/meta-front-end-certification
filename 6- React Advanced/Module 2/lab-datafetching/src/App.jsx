@@ -6,6 +6,7 @@ function App() {
     const [ninja, setNinja] = useState(null);
     const [idMember, setIdMember] = useState( 1299);
 
+
     useEffect(() => {
         fetData()
     }, []);
