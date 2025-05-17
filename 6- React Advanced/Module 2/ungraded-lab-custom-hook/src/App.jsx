@@ -16,6 +16,8 @@ export default function App() {
             setDay("Monday")
         }
     }
+
+
     return (
         <div style={{padding: "40px"}}>
             <h1>
@@ -34,6 +36,11 @@ export default function App() {
 }
 
 function usePrevious(val) {
+    const ref = useRef();
 
+    useEffect(() => {
+        ref.current = val;
+    },[val]);
 
+    return ref.current
 }
