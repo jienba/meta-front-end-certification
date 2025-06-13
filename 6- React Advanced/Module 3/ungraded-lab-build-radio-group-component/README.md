@@ -53,14 +53,14 @@ At the moment, they don't render anything on the screen. You don't have to chang
 
 ### **Step 2**
 
-Open the `Radio/index.js` file. Implement the remaining bits for the `RadioGroup` component. The RadioOptions variable is initially set to `null`.
+Open the `Radio/index.jsx` file. Implement the remaining bits for the `RadioGroup` component. The RadioOptions variable is initially set to `null`.
 Instead, use `React.Children.map` to iterate over the `children` and clone each child using `React.cloneElement`. The result should be assigned to the `RadioOptions` variable.
 
 Each cloned child should receive two additional props, `checked` and `onChange`.
 
 ### **Step 3**
 
-Open the `Radio/index.js` file. The `RadioOption` component is incomplete. In particular, it's missing some props in the input element that it renders: `value`, `checked` and `onChange`.
+Open the `Radio/index.jsx` file. The `RadioOption` component is incomplete. In particular, it's missing some props in the input element that it renders: `value`, `checked` and `onChange`.
 
 The `RadioOption` component already receives all those props. Your goal is to connect them to the input element.
 
